@@ -1,0 +1,22 @@
+a
+{ID: 0, Firstname: "Gregory"}Firstname: "Gregory"ID: 0__proto__: Object
+a.Lastname = 'Doud';
+"Doud"
+a
+{ID: 0, Firstname: "Gregory", Lastname: "Doud"}
+a.Active = true;
+true
+a
+{ID: 0, Firstname: "Gregory", Lastname: "Doud", Active: true}
+a.arr = [1,2,3];
+(3) [1, 2, 3]
+a
+{ID: 0, Firstname: "Gregory", Lastname: "Doud", Active: true, arr: Array(3)}Active: trueFirstname: "Gregory"ID: 0Lastname: "Doud"arr: Array(3)0: 11: 22: 3length: 3__proto__: Array(0)__proto__: Object
+a.occ={job:'student'};
+{job: "student"}
+a
+{ID: 0, Firstname: "Gregory", Lastname: "Doud", Active: true, arr: Array(3), …}Active: trueFirstname: "Gregory"ID: 0Lastname: "Doud"arr: (3) [1, 2, 3]0: 11: 22: 3length: 3__proto__: Array(0)occ: job: "student"__proto__: Object__proto__: Object
+a.occ.job
+"student"
+a['occ']["job"]
+"student"
